@@ -5,6 +5,6 @@ def home(request):
     jobs = Job.objects
     return render(request, 'jobs/home.html', {'jobs':jobs})
 
-def home4(request):
+def home2(request):
     jobs = Job.objects
     return render(request, 'jobs/home.html', {'jobs':jobs})
